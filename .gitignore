@@ -30,8 +30,30 @@
 *.exe
 *.out
 *.app
+wxWidgets-micro-sample
 
 # Build and IDE directories
 Debug
 Release
 .vs
+build/
+
+# vcpkg
+vcpkg_installed/
+
+# macOS specific
+.DS_Store
+*.dSYM/
+
+# Visual Studio files
+*.user
+*.ncb
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+
+# Temporary files
+*~
+*.tmp
+*.temp

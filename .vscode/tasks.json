@@ -1,0 +1,54 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build wxWidgets Sample",
+			"type": "shell",
+			"command": "make",
+			"group": "build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build wxWidgets Sample (Debug)",
+			"type": "shell",
+			"command": "make",
+			"args": ["debug"],
+			"group": "build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build wxWidgets Sample (Verbose)",
+			"type": "shell",
+			"command": "make",
+			"args": ["verbose"],
+			"group": "build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Clean Build",
+			"type": "shell",
+			"command": "make",
+			"args": ["clean"],
+			"group": "build",
+			"isBackground": false
+		},
+		{
+			"label": "Run Program",
+			"type": "shell",
+			"command": "make",
+			"args": ["run"],
+			"group": "test",
+			"dependsOn": "Build wxWidgets Sample",
+			"isBackground": false
+		}
+	]
+}

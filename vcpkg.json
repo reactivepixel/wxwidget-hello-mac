@@ -1,0 +1,9 @@
+{
+  "name": "wxwidgets-micro-sample",
+  "version": "1.0.0",
+  "description": "A simple wxWidgets sample application",
+  "dependencies": [
+    "wxwidgets"
+  ],
+  "builtin-baseline": "b2a6c8bdde3ec5a5804cf4e38501e7bfdc8046bd"
+}
