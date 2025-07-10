@@ -54,10 +54,10 @@ else
     if ! command_exists "wx-config"; then
         echo "⚠️  wxWidgets not found. You have two options:"
         echo ""
-        echo "Option 1: Install via vcpkg (recommended)"
+        echo "Option 1: Install via vcpkg (not recommended for Parallels users)"
         echo "  ./setup-vcpkg.sh"
         echo ""
-        echo "Option 2: Install via Homebrew"
+        echo "Option 2: Install via Homebrew (recommended)"
         echo "  brew install wxwidgets"
         echo ""
         read -p "Install via Homebrew now? (y/n): " -n 1 -r
